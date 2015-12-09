@@ -13,7 +13,7 @@
 @property (nonatomic,strong)NSString *testSVN;
 @property (nonatomic,strong)NSString *taestata;
 @property (nonatomic,strong)NSString *dajflkjdajflkj;
-@property(nonatomic,strong)NSString *丁丁历险记
+@property(nonatomic,strong)NSString *丁丁历险记;
 
 @end
 
@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
